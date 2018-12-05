@@ -3,7 +3,7 @@
 @section('content')
     <h1 class="text-center mt-3">Zitate des {{ config('app.name') }}</h1>
 
-    <form action="/quote" method="POST">
+    <form action="quote" method="POST">
         {{ csrf_field() }}
         <div class="form-group">
             <label for="quote">Zitat:</label>

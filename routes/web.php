@@ -44,5 +44,5 @@ Route::post('/quote', function (Request $request) {
     $quote->quotist = $request->quotist;
     $quote->save();
 
-    //return redirect('/');
+    return redirect('/');
 });
